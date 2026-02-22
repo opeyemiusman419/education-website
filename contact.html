@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Education Website</title>
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.2.0/css/line.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- swipper js -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="contact.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="container nav-container">
+        <a href="index.html" class="logo"><h4>Opetech</h4></a>
+        <ul class="menu-item">
+          <li><a href="index.html">home</a></li>
+          <li><a href="about.html">about us</a></li>
+          <li><a href="course.html">courses</a></li>
+          <li><a href="contact.html">contact</a></li>
+        </ul>
+
+        <div class="menu-btn">
+          <button id="open-btn"><i class="uil uil-bars"></i></button>
+          <button id="close-btn"><i class="uil uil-multiply"></i></button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- contact section -->
+    <section class="contact">
+      <div class="container contact-container">
+        <aside class="contact-aside">
+          <div class="aside-img">
+            <img src="images/contact.svg" alt="" />
+          </div>
+          <h3>contact us</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum
+            laudantium odio earum.
+          </p>
+          <ul class="contact-info">
+            <li>
+              <i class="uil uil-calling"></i>
+              <h4>09054467017</h4>
+            </li>
+
+            <li>
+              <i class="uil uil-envelope"></i>
+              <h4>support@gmail.com</h4>
+            </li>
+            <li>
+              <i class="uil uil-location-point"></i>
+              <h4>abuja nigeria</h4>
+            </li>
+          </ul>
+
+          <ul class="contact-social">
+            <li>
+              <a href="#"> <i class="uil uil-facebook-f"></i></a>
+            </li>
+            <li>
+              <a href="#"> <i class="uil uil-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"> <i class="uil uil-linkedin"></i></a>
+            </li>
+            <li>
+              <a href="#"> <i class="uil uil-instagram"></i></a>
+            </li>
+          </ul>
+        </aside>
+
+        <div class="contact-form">
+          <form
+            action="https://formspree.io/f/mjgeopeb"
+            method="post"
+            class="contact form"
+          >
+            <div class="name">
+              <input
+                type="text"
+                name="first name"
+                placeholder="first name"
+                required
+              />
+              <input
+                type="text"
+                name="last name"
+                placeholder="last name"
+                required
+              />
+            </div>
+
+            <input
+              type="email"
+              name="email"
+              placeholder="enter email"
+              required
+            />
+
+            <textarea
+              name="message"
+              id=""
+              placeholder="message"
+              rows="6"
+            ></textarea>
+
+            <button class="btn btn-primary" type="submit">send message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer section -->
+    <footer>
+      <div class="container footer-container">
+        <div class="footer1">
+          <a href="index.html" class="footer-logo"><h2>opetech</h2></a>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi,
+            ipsum eaque!
+          </p>
+        </div>
+        <div class="footer2">
+          <h3 class="footer-heading">permilinks</h3>
+          <ul class="footer-links">
+            <li><a href="index.html">home</a></li>
+            <li><a href="about.html">about us</a></li>
+            <li><a href="course.html">course</a></li>
+            <li><a href="contact">contact</a></li>
+          </ul>
+        </div>
+        <div class="footer3">
+          <h3 class="footer-heading">primacy</h3>
+          <ul class="footer-links">
+            <li><a href="#">privancy policy</a></li>
+            <li><a href="#">terms and condition</a></li>
+            <li><a href="#">refund policy</a></li>
+          </ul>
+        </div>
+
+        <div class="footer4">
+          <h3 class="footer-heading">contact</h3>
+          <p>
+            09054467017 <br />
+            opeyemi@gmail.com
+          </p>
+          <div class="footer-social-links">
+            <i class="uil uil-facebook-f"></i>
+            <i class="uil uil-twitter"></i>
+            <i class="uil uil-linkedin"></i>
+            <i class="uil uil-instagram"></i>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>&copy; <span id="2026"></span> Opetech. All rights reserved.</p>
+      </div>
+    </footer>
+    <!-- swiper js script -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
